@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<file id="stream" version="2.0">
+
+  <stream_info name="CORE_IAF_JRA55do.PRSN">
+   <taxmode>cycle</taxmode>
+   <tintalgo>linear</tintalgo>
+   <readmode>single</readmode>
+   <mapalgo>bilinear</mapalgo>
+   <dtlimit>1.5</dtlimit>
+   <year_first>1900</year_first>
+   <year_last>1900</year_last>
+   <year_align>1900</year_align>
+   <vectors>null</vectors>
+   <meshfile>./input/JRA55do-ESMFmesh.nc</meshfile>
+   <lev_dimname>null</lev_dimname>
+   <datafiles>
+      <file>./input/RYF.prsn.1990_1991.nc</file>
+   </datafiles>
+   <datavars>
+      <var>prsn  Faxa_prsn</var>
+   </datavars>
+   <offset>0</offset>
+  </stream_info>
+
+  <stream_info name="CORE_IAF_JRA55do.PRRN">
+   <taxmode>cycle</taxmode>
+   <tintalgo>linear</tintalgo>
+   <readmode>single</readmode>
+   <mapalgo>bilinear</mapalgo>
+   <dtlimit>1.5</dtlimit>
+   <year_first>1900</year_first>
+   <year_last>1900</year_last>
+   <year_align>1900</year_align>
+   <vectors>null</vectors>
+   <meshfile>./input/JRA55do-ESMFmesh.nc</meshfile>
+   <lev_dimname>null</lev_dimname>
+   <datafiles>
+      <file>./input/RYF.prra.1990_1991.nc</file>
+   </datafiles>
+   <datavars>
+      <var>prra  Faxa_prrn</var>
+   </datavars>
+   <offset>0</offset>
+  </stream_info>
+
+  <stream_info name="CORE_IAF_JRA55do.LWDN">
+   <taxmode>cycle</taxmode>
+   <tintalgo>linear</tintalgo>
+   <readmode>single</readmode>
+   <mapalgo>bilinear</mapalgo>
+   <dtlimit>1.5</dtlimit>
+   <year_first>1900</year_first>
+   <year_last>1900</year_last>
+   <year_align>1900</year_align>
+   <vectors>null</vectors>
+   <meshfile>./input/JRA55do-ESMFmesh.nc</meshfile>
+   <lev_dimname>null</lev_dimname>
+   <datafiles>
+      <file>./input/RYF.rlds.1990_1991.nc</file>
+   </datafiles>
+   <datavars>
+      <var>rlds  Faxa_lwdn</var>
+   </datavars>
+   <offset>0</offset>
+  </stream_info>
+
+
+  <stream_info name="CORE_IAF_JRA55do.SWDN">
+   <taxmode>cycle</taxmode>
+   <tintalgo>coszen</tintalgo>
+   <readmode>single</readmode>
+   <mapalgo>bilinear</mapalgo>
+   <dtlimit>1.5</dtlimit>
+   <year_first>1900</year_first>
+   <year_last>1900</year_last>
+   <year_align>1900</year_align>
+   <vectors>null</vectors>
+   <meshfile>./input/JRA55do-ESMFmesh.nc</meshfile>
+   <lev_dimname>null</lev_dimname>
+   <datafiles>
+      <file>./input/RYF.rsds.1990_1991.nc</file>
+   </datafiles>
+   <datavars>
+      <var>rsds  Faxa_swdn</var>
+   </datavars>
+   <offset>0</offset>
+  </stream_info>
+
+
+  <stream_info name="CORE_IAF_JRA55do.Q_10">
+   <taxmode>cycle</taxmode>
+   <tintalgo>linear</tintalgo>
+   <readmode>single</readmode>
+   <mapalgo>bilinear</mapalgo>
+   <dtlimit>1.5</dtlimit>
+   <year_first>1900</year_first>
+   <year_last>1900</year_last>
+   <year_align>1900</year_align>
+   <vectors>null</vectors>
+   <meshfile>./input/JRA55do-ESMFmesh.nc</meshfile>
+   <lev_dimname>null</lev_dimname>
+   <datafiles>
+      <file>./input/RYF.huss.1990_1991.nc</file>
+   </datafiles>
+   <datavars>
+      <var>huss  Sa_shum</var>
+   </datavars>
+   <offset>0</offset>
+  </stream_info>
+
+
+  <stream_info name="CORE_IAF_JRA55do.SLP_10">
+   <taxmode>cycle</taxmode>
+   <tintalgo>linear</tintalgo>
+   <readmode>single</readmode>
+   <mapalgo>bilinear</mapalgo>
+   <dtlimit>1.5</dtlimit>
+   <year_first>1900</year_first>
+   <year_last>1900</year_last>
+   <year_align>1900</year_align>
+   <vectors>null</vectors>
+   <meshfile>./input/JRA55do-ESMFmesh.nc</meshfile>
+   <lev_dimname>null</lev_dimname>
+   <datafiles>
+      <file>./input/RYF.psl.1990_1991.nc</file>
+   </datafiles>
+   <datavars>
+      <var>psl  Sa_pslv</var>
+   </datavars>
+   <offset>0</offset>
+  </stream_info>
+
+
+  <stream_info name="CORE_IAF_JRA55do.T_10">
+   <taxmode>cycle</taxmode>
+   <tintalgo>linear</tintalgo>
+   <readmode>single</readmode>
+   <mapalgo>bilinear</mapalgo>
+   <dtlimit>1.5</dtlimit>
+   <year_first>1900</year_first>
+   <year_last>1900</year_last>
+   <year_align>1900</year_align>
+   <vectors>null</vectors>
+   <meshfile>./input/JRA55do-ESMFmesh.nc</meshfile>
+   <lev_dimname>null</lev_dimname>
+   <datafiles>
+      <file>./input/RYF.tas.1990_1991.nc</file>
+   </datafiles>
+   <datavars>
+      <var>tas Sa_tbot</var>
+   </datavars>
+   <offset>0</offset>
+  </stream_info>
+
+
+  <stream_info name="CORE_IAF_JRA55do.U_10">
+   <taxmode>cycle</taxmode>
+   <tintalgo>linear</tintalgo>
+   <readmode>single</readmode>
+   <mapalgo>bilinear</mapalgo>
+   <dtlimit>1.5</dtlimit>
+   <year_first>1900</year_first>
+   <year_last>1900</year_last>
+   <year_align>1900</year_align>
+   <vectors>null</vectors>
+   <meshfile>./input/JRA55do-ESMFmesh.nc</meshfile>
+   <lev_dimname>null</lev_dimname>
+   <datafiles>
+      <file>./input/RYF.uas.1990_1991.nc</file>
+   </datafiles>
+   <datavars>
+      <var>uas Sa_u</var>
+   </datavars>
+   <offset>0</offset>
+  </stream_info>
+
+
+  <stream_info name="CORE_IAF_JRA55do.V_10">
+   <taxmode>cycle</taxmode>
+   <tintalgo>linear</tintalgo>
+   <readmode>single</readmode>
+   <mapalgo>bilinear</mapalgo>
+   <dtlimit>1.5</dtlimit>
+   <year_first>1900</year_first>
+   <year_last>1900</year_last>
+   <year_align>1900</year_align>
+   <vectors>null</vectors>
+   <meshfile>./input/JRA55do-ESMFmesh.nc</meshfile>
+   <lev_dimname>null</lev_dimname>
+   <datafiles>
+      <file>./input/RYF.vas.1990_1991.nc</file>
+   </datafiles>
+   <datavars>
+      <var>vas Sa_v</var>
+   </datavars>
+   <offset>0</offset>
+  </stream_info>
+</file>

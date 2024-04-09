@@ -1,0 +1,42 @@
+# PBS configuration
+
+# If submitting to a different project to your default, uncomment line below 
+# and change project code as appropriate; also set shortpath below
+project: tm70
+
+# Force payu to always find, and save, files in this scratch project directory
+# (you may need to add the corresponding PBS -l storage flag in sync_data.sh)
+shortpath: /scratch/tm70
+
+queue: normal
+ncpus: 288
+jobfs: 10GB
+mem: 1152GB
+
+walltime: 48:00:00
+jobname: 025deg_jra55do_ryf
+
+model: access-om3
+
+exe:  /g/data/ik11/spack/0.20.1/opt/linux-rocky8-cascadelake/intel-2021.6.0/access-om3-main-lxbeca7/bin/access-om3-MOM6-CICE6
+input: 
+    - /g/data/ik11/inputs/access-om3/0.x.0/025deg/share                         # shared grids and topography
+    - /g/data/ik11/inputs/access-om3/0.x.0/025deg/mom                           # grids, ICs etc (# diag rho2 (not sure used here correctly or not) https://github.com/COSIMA/MOM6-CICE6/issues/40#issuecomment-1996247784)
+    - /g/data/ik11/inputs/access-om3/0.x.0/025deg/cice                          # grids, ICs etc
+    - /g/data/ik11/inputs/access-om3/0.x.0/share/meshes/JRA55do-ESMFmesh.nc     # mesh for JRA55-do stream
+    - /g/data/ik11/inputs/JRA-55/RYF/v1-4                                       # datm and drof JRA55-do streams data
+ 
+collate: false
+runlog: true
+
+userscripts:
+    setup: ./setup_cice_restarts.sh
+    archive: ./archive_cice_restarts.sh
+
+modules:
+  use:
+      - /g/data/ik11/spack/0.20.1/modules/access-om3/0.x.0/linux-rocky8-cascadelake
+  load:
+      - intel-compiler/2021.6.0
+      - openmpi/4.1.4
+      - parallelio/2.5.10

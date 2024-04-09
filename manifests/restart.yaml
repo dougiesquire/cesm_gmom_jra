@@ -1,0 +1,73 @@
+format: yamanifest
+version: 1.0
+---
+work/GMOM_JRA.cice.r.1901-01-01-00000.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/GMOM_JRA.cice.r.1901-01-01-00000.nc
+  hashes:
+    binhash: 93b0c52ef032b6f4ce61c6248c9c539e
+    md5: b8f53cbba278a1d6acfc30f5a2b00b35
+work/GMOM_JRA.cpl.r.1901-01-01-00000.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/GMOM_JRA.cpl.r.1901-01-01-00000.nc
+  hashes:
+    binhash: 21b2fa046ca7b95eabe068181086b23d
+    md5: 9f6cb5d66f9bb176bc6a7203ea93b912
+work/GMOM_JRA.datm.r.1901-01-01-00000.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/GMOM_JRA.datm.r.1901-01-01-00000.nc
+  hashes:
+    binhash: 7d25f7603f6a6202ed8a0c631bae79b7
+    md5: 4dcd761f946c3b29a130e3ced8d36e07
+work/GMOM_JRA.drof.r.1901-01-01-00000.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/GMOM_JRA.drof.r.1901-01-01-00000.nc
+  hashes:
+    binhash: 429a9dba0e85e1b794bfb5d28bb47426
+    md5: 3783efd4517c8fe4d9c2d0efd05c3ed3
+work/GMOM_JRA.mom6.r.1901-01-01-00000.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/GMOM_JRA.mom6.r.1901-01-01-00000.nc
+  hashes:
+    binhash: 62a37ce9d6233a47e8c5847e0f218d6f
+    md5: 89593d6a92046299fb555779466df6c7
+work/GMOM_JRA.mom6.r.1901-01-01-00000_1.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/GMOM_JRA.mom6.r.1901-01-01-00000_1.nc
+  hashes:
+    binhash: 0f3392c9b99d91aa5643a20e7a481114
+    md5: 61640bfe4942ab47368e51bb7c077471
+work/GMOM_JRA.mom6.r.1901-01-01-00000_2.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/GMOM_JRA.mom6.r.1901-01-01-00000_2.nc
+  hashes:
+    binhash: d8e1cf2669dfea939c3b1fb6925fe589
+    md5: 0df0ba75f0d8825b98971ec60dfcd7d2
+work/GMOM_JRA.mom6.r.1901-01-01-00000_3.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/GMOM_JRA.mom6.r.1901-01-01-00000_3.nc
+  hashes:
+    binhash: a0e4a9b7a9bc2d266117146ee4132ea0
+    md5: efa0268f1cc13be7db99ae8ec8a9847b
+work/GMOM_JRA.mom6.r.1901-01-01-00000_4.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/GMOM_JRA.mom6.r.1901-01-01-00000_4.nc
+  hashes:
+    binhash: 6c99b1aac3a6943f44e7ceff7908bf04
+    md5: 5a6a6a618f7aa620d6066495293c085e
+work/rpointer.atm:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/rpointer.atm
+  hashes:
+    binhash: 2dfeea972fae063f4fea72feca290ea6
+    md5: eb9cfde8ed293119810fa036e89c3772
+work/rpointer.cpl:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/rpointer.cpl
+  hashes:
+    binhash: e38520bde70d3d4b0418eb4df6ba7b8b
+    md5: 927c3cb6b2489bf5c8d16a0709cc5d25
+work/rpointer.ice:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/rpointer.ice
+  hashes:
+    binhash: 58c75faf3bfe0cb690e1702ba171a4cd
+    md5: 534acb38ae22add7fc29a4b6e7b30bdf
+work/rpointer.ocn:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/rpointer.ocn
+  hashes:
+    binhash: b0e892a8aed58c8b5878d07e331b8bba
+    md5: 6efaf676498abf7df3bd4d9f5e6cc5a0
+work/rpointer.rof:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/MOM6-CICE6-EXP-2/restart000/rpointer.rof
+  hashes:
+    binhash: e0eedc54516754b46669476394d7bd48
+    md5: 25b8bcd0ae6e66b831ffd40e0a94c5c5
