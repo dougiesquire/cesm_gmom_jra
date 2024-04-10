@@ -1,2 +1,8 @@
-experiment_uuid: 071afe24-6659-4385-baa0-28e6eb1f588e
+experiment_uuid: d3a62362-dd76-4e64-a45e-ca1b6885a8e3
 parent_experiment: 76c010c8-6f80-4600-bbd2-3135bed38cd5
+created: '2024-04-10'
+name: COSIMA_MOM6-CICE6-025deg_jra55do_ryf_iss135-d3a62362
+model: ACCESS-OM3
+url: git@github.com:COSIMA/MOM6-CICE6.git
+contact: minghangli
+email: minghang.li1@anu.edu.au
