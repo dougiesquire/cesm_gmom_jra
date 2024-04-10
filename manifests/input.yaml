@@ -76,11 +76,21 @@ work/input/access-om2-025deg-nomask-ESMFmesh.nc:
   hashes:
     binhash: 7ae247d56106c51c1f7a58deda307210
     md5: db5407804d759435c6846d2d2c661a6e
+work/input/diag_rho2.nc:
+  fullpath: /g/data/ik11/inputs/access-om3/0.x.0/025deg/mom/diag_rho2.nc
+  hashes:
+    binhash: 415389e920500ffd5ebbdde7ff94b539
+    md5: 2e28890e50220397a167a2b3c4a30271
 work/input/grid.nc:
   fullpath: /g/data/ik11/inputs/access-om3/0.x.0/025deg/cice/grid.nc
   hashes:
     binhash: f1239d0326cebb637d0eabc6834e00c9
     md5: 6946bd45cb5cbf932f869b39eb68bee2
+work/input/iced.1900-01-01-10800.nc:
+  fullpath: /g/data/ik11/inputs/access-om3/0.x.0/025deg/cice/iced.1900-01-01-10800.nc
+  hashes:
+    binhash: 2bfdf30f6850fdc6f1a7c9e230c27935
+    md5: 358d6cd4ff72e1a4625d58a0329e2bf5
 work/input/kmt.nc:
   fullpath: /g/data/ik11/inputs/access-om3/0.x.0/025deg/cice/kmt.nc
   hashes:
@@ -659,8 +669,8 @@ work/input/ocean_temp_salt.res.nc:
 work/input/ocean_vgrid.nc:
   fullpath: /g/data/ik11/inputs/access-om3/0.x.0/025deg/mom/ocean_vgrid.nc
   hashes:
-    binhash: a10a26a7c361279ae0032afc8c83fadd
-    md5: e56e2936499d3ad53429d5940821118d
+    binhash: 41aacb22558d1e9af98fa83ecd267155
+    md5: b74672f3e1e4d6f9f3915dd3bf1b0795
 work/input/salt_sfc_restore.nc:
   fullpath: /g/data/ik11/inputs/access-om3/0.x.0/025deg/mom/salt_sfc_restore.nc
   hashes:
