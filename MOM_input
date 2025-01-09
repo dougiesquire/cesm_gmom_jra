@@ -130,6 +130,7 @@ CHANNEL_CONFIG = "global_1deg"  ! default = "none"
                                 !       test case.
                                 !     file - Read open face widths everywhere from a
                                 !       NetCDF file on the model grid.
+RAD_EARTH = 6.371229E6           ! default = 6.378e6
 
 ! === module MOM_verticalGrid ===
 ! Parameters providing information about the vertical grid.
